@@ -1,0 +1,93 @@
+	* {
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: arial,sans serif,Georgia;
+	text-align: center;
+	color: 00000
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 10px 10px 10px 10px;
+	font-family: "Times New Roman", Times,serif;
+	font-size: 15px;
+	position: relative;
+}
+
+.section { 
+	background-color:#2CDED5;
+   	border: 1px solid black;
+   	height:250px;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	margin-left:20px;
+
+   	padding: 3px;
+   	text-align: left;
+   	position: relative;
+
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; 
+	top :0; 
+	right: 0; 
+	margin: 0;
+	position: absolute;
+}
+#title1 {
+	background-color: #D25B58 ;
+	color:black;
+}
+#title2 {
+	background-color: #2B6AEA;
+	color: black;
+}
+#title3 {
+	background-color: #F35A97;
+	color: black;
+}
+}
+/*simple*/
+.row {
+	width: 100%;
+}
+
+/* Desktop,PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* mobile view */
+@media (max-width: 767px)  {
+  
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+}
